@@ -282,6 +282,11 @@ function setupLights() {
 }
 
 function shipProduct() {
+	if (roomFurniture.length > 20) {
+		statusMessage("Antalet möbler i rummet kan inte överstiga 20");
+		return;
+	}
+
 	let artnr = this.getAttribute("data-artnr");
 	const product = getProduct(artnr);
 
@@ -674,7 +679,7 @@ function run() {
 		const card = new ProductCard(product);
 		const node = card.toHTML();
 		node.setAttribute("data-artnr", product.artnr);
-		node.addEventListener("pointerup", shipProduct);
+		node.addEventListener("click", shipProduct);
 
 		document.querySelector("#productlist").appendChild(node);
 	});
