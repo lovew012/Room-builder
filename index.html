@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rumbyggaren</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="products.js"></script>
+  <script src="ProductCard.js"></script>
+  <script src="Keyboard.js"></script>
+  <script src="message.js"></script>
+  <script src="rooms.js"></script>
+  <script type="module" src="/main_alt.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <aside>
+    <a id="anchor-assortment" href="assortment.html">Hitta möbler <span id="icon-assortment"></span></a>
+    <h1>Lägg till +</h1>
+    <ul id="productlist">
+
+    </ul>
+  </aside>
+
+  <main>
+    <div id="app">
+      <canvas></canvas>
+    </div>
+  </main>
+
+  <aside id="sceneconf">
+
+    <div id="room-config-wrapper">
+      <h2>Konfigurera rum</h2>
+      <div id="prefabs">
+        <a href="index.html?room=bedroom"><span id="icon-bedroom"></span> Sovrum </a>
+        <a href="index.html?room=livingroom"><span id="icon-livingroom"></span> Vardagsrum</a>
+      </div>
+      <div class="field-wrapper">
+        <label for="field-length">Längd</label>
+        <input type="text" id="field-length" value="6m" placeholder="1-10" class="field-dim">
+        <div class="custom-spinner spinner-up">▲</div>
+        <div class="custom-spinner spinner-down">▼</div>
+      </div>
+      <div class="field-wrapper">
+        <label for="field-width">Bredd</label>
+        <input type="text" id="field-width" value="4m" placeholder="1-10" class="field-dim">
+        <div class="custom-spinner spinner-up">▲</div>
+        <div class="custom-spinner spinner-down">▼</div>
+      </div>
+      <div class="field-wrapper">
+        <label for="field-height">Höjd</label>
+        <input type="text" id="field-height" value="3m" placeholder="1-10" class="field-dim">
+        <div class="custom-spinner spinner-up">▲</div>
+        <div class="custom-spinner spinner-down">▼</div>
+      </div>
+
+      <div id="collapsible-wrapper">
+        <div id="button-expand">
+          <h2>Anpassa färger <span id="collapse-icon"> <span id="open-icon"></span></h2>
+        </div>
+        <div class="room-colors">
+          <h3>Väggar</h3>
+          <div class="field-color">
+            <div class="room-color-input checked" value="#9A7E6F"></div>
+            <div class="room-color-input" value="#363b4e"></div>
+            <div class="room-color-input" value="#233142"></div>
+            <div class="room-color-input" value="#a55233"></div>
+            <div class="room-color-input" value="#f7f4ea"></div>
+            <div class="room-color-input" value="#f0d78c"></div>
+            <div class="room-color-input" value="#C0C78C"></div>
+            <div class="room-color-input" value="#7aa5d2"></div>
+            <div class="room-color-input" value="#CB80AB"></div>
+            <div class="room-color-input" value="#697565"></div>
+            <div class="room-color-input" value="#d6cfb9"></div>
+            
+          </div>
+
+          <h3>Golv</h3>
+          <div class="field-color">
+            <div class="room-color-input checked" value="#DAD3BE"></div>
+            <div class="room-color-input" value="#8f8787"></div>
+            <div class="room-color-input" value="#f0ece2"></div>
+            <div class="room-color-input" value="#705C53"></div>
+            <div class="room-color-input" value="#5c4d4d"></div>
+            <div class="room-color-input" value="#9A7E6F"></div>
+          </div>
+
+
+          <h3>Tak</h3>
+          <div class="field-color">
+            <div class="room-color-input checked" value="#AB886D"></div>
+            <div class="room-color-input" value="#8f8787"></div>
+            <div class="room-color-input" value="#363434"></div>
+            <div class="room-color-input" value="#7aa5d2"></div>
+            <div class="room-color-input" value="#f2f2f2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+    <div id="room-config-objects-wrapper">
+
+
+      <ul>
+
+      </ul>
+    </div>
+
+    
+
+    <ul>
+
+    </ul>
+  </aside>
+
+  
+  
+
+</body>
+
+</html>

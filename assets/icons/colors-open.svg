@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 498.61 503.31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #005548;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #201751;
+      }
+
+      .cls-3 {
+        fill: #d8dbde;
+      }
+
+      .cls-4 {
+        fill: #a64924;
+      }
+
+      .cls-18 {
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-19 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-20 {
+        fill: #52a85d;
+        stroke: #2a4341;
+        stroke-miterlimit: 10;
+        stroke-width: 24px;
+      }
+
+      .cls-5 {
+        fill: #939598;
+      }
+
+      .cls-6 {
+        fill: #a7a9ac;
+      }
+
+      .cls-21 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-7 {
+        fill: #bcbec0;
+      }
+
+      .cls-8 {
+        fill: #2c2f87;
+      }
+
+      .cls-9 {
+        fill: #02763c;
+      }
+
+      .cls-10 {
+        fill: #bebebd;
+      }
+
+      .cls-11 {
+        fill: #48a671;
+      }
+
+      .cls-12 {
+        fill: #bd2626;
+      }
+
+      .cls-13 {
+        fill: #68be57;
+      }
+
+      .cls-14 {
+        fill: #186db6;
+      }
+
+      .cls-15 {
+        fill: #533311;
+      }
+
+      .cls-16 {
+        fill: #753617;
+      }
+
+      .cls-17 {
+        fill: #2a286e;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#231f20" flood-opacity=".18"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur-2" stdDeviation="5"/>
+      <feFlood flood-color="#231f20" flood-opacity=".18"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur-3" stdDeviation="5"/>
+      <feFlood flood-color="#231f20" flood-opacity=".18"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-19">
+    <rect class="cls-6" x="412.06" y="310.32" width="89.36" height="35.11" rx="17.55" ry="17.55" transform="translate(638.16 -204.29) rotate(73.15)"/>
+    <rect class="cls-14" x="369.3" y="296.14" width="89.36" height="89.36" transform="translate(620.19 -154.17) rotate(73.15)"/>
+    <rect class="cls-8" x="283.77" y="322.04" width="89.36" height="89.36" transform="translate(584.24 -53.92) rotate(73.15)"/>
+    <rect class="cls-17" x="198.25" y="347.95" width="89.36" height="89.36" transform="translate(548.29 46.33) rotate(73.15)"/>
+    <rect class="cls-2" x="112.72" y="373.85" width="89.36" height="89.36" transform="translate(512.34 146.57) rotate(73.15)"/>
+    <path class="cls-5" d="m101.69,388.71l-76.97,23.31,25.9,85.52,76.97-23.31-25.9-85.52Zm-48.74,61.45c-3.88-12.82,3.37-26.36,16.18-30.24,12.82-3.88,26.37,3.36,30.25,16.18,3.88,12.82-3.36,26.37-16.19,30.25-12.82,3.88-26.36-3.37-30.24-16.19Z"/>
+  </g>
+  <g class="cls-21">
+    <rect class="cls-7" x="318.04" y="147.03" width="89.36" height="35.11" rx="17.55" ry="17.55" transform="translate(225.94 -209.51) rotate(45.51)"/>
+    <rect class="cls-12" x="286.17" y="151.21" width="89.36" height="89.36" transform="translate(238.74 -177.4) rotate(45.51)"/>
+    <rect class="cls-4" x="222.42" y="213.84" width="89.36" height="89.36" transform="translate(264.34 -113.19) rotate(45.51)"/>
+    <rect class="cls-16" x="158.67" y="276.46" width="89.36" height="89.36" transform="translate(289.94 -48.97) rotate(45.51)"/>
+    <rect class="cls-15" x="94.92" y="339.08" width="89.36" height="89.36" transform="translate(315.54 15.24) rotate(45.51)"/>
+    <path class="cls-7" d="m76.41,383.2l-57.37,56.36,62.62,63.75,57.37-56.36-62.62-63.75Zm-14.67,77.05c-9.38-9.55-9.25-24.91.31-34.29,9.56-9.39,24.92-9.25,34.3.3,9.39,9.56,9.25,24.92-.31,34.31s-24.91,9.25-34.3-.31Z"/>
+  </g>
+  <polygon class="cls-20" points="483.54 198.51 483.54 279.95 300.92 279.95 300.92 483.54 219.47 483.54 219.47 279.95 12 279.95 12 198.51 219.47 198.51 219.47 12 300.92 12 300.92 198.51 483.54 198.51"/>
+  <g class="cls-18">
+    <rect class="cls-10" x="436.38" y="421.3" width="89.36" height="35.11" rx="17.55" ry="17.55" transform="translate(919.91 -42.2) rotate(90)"/>
+    <rect class="cls-13" x="391.7" y="394.18" width="89.36" height="89.36" transform="translate(875.23 2.48) rotate(90)"/>
+    <rect class="cls-11" x="302.34" y="394.18" width="89.36" height="89.36" transform="translate(785.87 91.84) rotate(90)"/>
+    <rect class="cls-9" x="212.97" y="394.18" width="89.36" height="89.36" transform="translate(696.51 181.2) rotate(90)"/>
+    <rect class="cls-1" x="123.61" y="394.18" width="89.36" height="89.36" transform="translate(607.15 270.56) rotate(90)"/>
+    <path class="cls-3" d="m123.61,394.17H43.19s0,89.36,0,89.36h80.42v-89.36Zm-64.46,44.68c0-13.39,10.86-24.25,24.25-24.25,13.4,0,24.26,10.86,24.26,24.25,0,13.4-10.86,24.26-24.26,24.26-13.39,0-24.25-10.86-24.25-24.26Z"/>
+  </g>
+</svg>

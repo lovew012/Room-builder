@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortiment | Produktsida</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="products.js"></script>
+    <script src="Keyboard.js"></script>
+    <script src="loader.js"></script>
+    <script src="search.js"></script>
+</head>
+
+<body id="product-body">
+    <nav id="assortment-nav">
+        <a href="assortment.html" id="a-back"><span id="icon-back"></span>Tillbaka</a>
+        <div id="search-wrapper">
+            
+            <div id="search-result-wrapper">
+                <input type="search" placeholder="Vad letar du efter?" id="searchbar">
+                <ul id="resultlist">
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main id="product-main">
+        <div id="product-block-top">
+            <div id="img-wrapper-carousel">
+                <img src="" alt="">
+                <span id="button-prev" class="disabled">⯇</span>
+                <span id="button-next">⯈</span>
+            </div>
+
+            <div>
+                <h1>Möbel</h1>
+                <p><span id="span-price">0</span> kr</p>
+                <p id="description"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, voluptatum dolores harum dicta non modi saepe praesentium at labore quas assumenda illo. Repudiandae, perferendis architecto? Temporibus alias rem nam suscipit.</span><span>Aliquam mollitia blanditiis ipsum porro sunt, qui optio fuga! Explicabo nisi asperiores eveniet. Totam dignissimos, quod reprehenderit explicabo placeat iste exercitationem fugit ex soluta, quo odit sed distinctio autem expedita.</span><span>Nostrum recusandae tempore mollitia dolor doloremque numquam natus ex dolore error sapiente, accusantium ducimus amet vitae perferendis illum dolorem exercitationem eius laborum eaque rem. Dolore facere exercitationem id quod sunt?</span><span>Animi dolore odit numquam velit iste esse, accusamus, quo autem ipsa cumque commodi fugit! Est, magni deleniti nemo numquam optio, odit laudantium officiis consectetur aliquam dolore, eaque sit quod reprehenderit.</span><span>Earum ratione quas repellat aperiam ab deserunt blanditiis quod harum consequuntur voluptas est, iusto nemo. Cumque atque temporibus consectetur fugit impedit. Porro quisquam tempore quia nulla ea inventore sint reiciendis.</span></p>
+
+                <p>Material: <span id="span-material"></span></p>
+
+            </div>
+        </div>
+
+        <div id="productspec">
+            <div id="spec-first">
+                <div>
+                    <div id="display-colors">
+
+                    </div>
+                    <p>Artikelnummer <span id="span-artnr"></span></p>
+
+                    <h2>Dimensioner</h2>
+                    <table>
+                        <tr>
+                            <td>Längd</td>
+                            <td>Bredd</td>
+                            <td>Höjd</td>
+                        </tr>
+                        <tr>
+                            <td id="row-length">0m</td>
+                            <td id="row-width">0m</td>
+                            <td id="row-height">0m</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="right">
+                    <a id="anchor-3dfy" href="">Visa i rumbyggaren</a>
+                </div>
+            </div>
+
+
+            <h3>Hitta i butiken</h3>
+            <div id="map-wrap">
+                <img id="map" src="" alt="">
+            </div>
+
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortiment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="products.js"></script>
+    <script src="ProductCard.js"></script>
+    <script src="Keyboard.js"></script>
+    <script src="assortment.js"></script>
+    <script src="search.js"></script>
+</head>
+<body id="assortment-body">
+    <nav id="assortment-nav">
+        <a href="index.html">Rumbyggaren <span id="icon-builder"></span></a>
+        <div id="search-wrapper">
+            
+            <div id="search-result-wrapper">
+                <input type="search" placeholder="Vad letar du efter?" id="searchbar"><span id="icon-search"></span>
+                <ul id="resultlist">
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="assortment-filter">
+        <h2>Filtrera</h2>
+        <select name="furniture" id="field-filter-furniture" class="field-select">
+            <option value="">Alla möbler</option>
+            <option value="c">Stolar</option>
+            <option value="t">Bord</option>
+            <option value="s">Soffor</option>
+            <option value="b">Sängar</option>
+            <option value="h">Hyllor</option>
+        </select>
+
+        <select name="colors" id="field-filter-colors" class="field-select">
+            <option value="">Alla färger</option>
+            <option value="s">Svart/Grått</option>
+            <option value="b">Brun</option>
+            <option value="v">Vit</option>
+            <option value="r">Röd/Orange</option>
+            <option value="g">Grön</option>
+        </select>
+
+        <select name="price" id="field-filter-price" class="field-select">
+            <option value="">Alla prisklasser</option>
+            <option value="500">Under 500 kr</option>
+            <option value="1000">Under 1 000 kr</option>
+            <option value="5000">Under 5 000 kr</option>
+            <option value="10000">Under 10 000 kr</option>
+            <option value="30000">Under 30 000 kr</option>
+        </select>
+
+        <select name="material" id="field-filter-material" class="field-select">
+            <option value="">Alla material</option>
+            <option value="björk">Björk</option>
+            <option value="ek">Ek</option>
+        </select>
+    </section>
+    <main id="assortment-main">
+        <ul id="assortment-products">
+
+        </ul>
+    </main>
+</body>
+</html>
